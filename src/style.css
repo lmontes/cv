@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cv {
+  /* A4 */
+  width: 210mm;
+}
+
+.page-break {
+  display: none;
+}
+
+@media print {
+  .page-break {
+    display: block;
+    page-break-before: auto;
+  }
+
+  .print-button {
+    display: none;
+  }
+}
