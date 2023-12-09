@@ -1,6 +1,33 @@
 # CV
 
-Currículum vitae de lmontes
+Currículum vitae de lmontes.
+
+## Development
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run locally
+
+```bash
+npm run dev
+```
+
+Publish to Github pages manually
+
+```bash
+npm run build
+npm run deploy
+```
+
+## Technologies
+
+* [Vue.js](https://vuejs.org)
+* [Tailwind.css](https://tailwindcss.com)
+* [Font Awesome icons](https://fontawesome.com)
 
 ## Links
 

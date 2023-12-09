@@ -19,7 +19,7 @@
 
     <div class="pl-4">
       <ul
-        class="list-none list-disc list-inside text-justify text-slate-700 mb-2"
+        class="list-disc list-inside text-justify text-slate-700 mb-2"
       >
         <li v-for="t in data.tasks" v-bind:key="t">
           {{ $t(t) }}
