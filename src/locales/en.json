@@ -15,8 +15,9 @@
     "task_iti_radiatus": "Participation in the beginnings of the Radiatus project, consisting of the deployment and automatic configuration of Big Data services in the cloud.",
     "task_iti_twitter": "System to collect data from Twitter and generate HTML reports with interactive graphics integrating technologies such as Spark, Kafka, Elasticsearch, PostgreSQL and Neo4j on Kubernetes.",
     "task_iti_iot": "Development and deployment of different microservices in an IoT device for remote monitoring and control of industrial machines.",
+    "task_iti_forecasting": "Development and deployment of a global machine learning model for the prediction of fruit and vegetable sales in a supermarket using Azure ML",
     "task_iti_prototypes": "Development of prototypes integrating technologies such as Spark, Neo4j, Elasticsearch, Kibana and Grafana. Creation of simple web interfaces in some of them.",
-    "task_iti_eda": "Conducting small and large scale exploratory data analysis on various projects.",
+    "task_iti_eda": "Conducting small and large scale exploratory data analysis.",
     "task_iti_mlops": "Packaging and deployment of Machine Learning models as REST APIs using Docker.",
     "task_iti_reports": "Preparation of reports, presentations and project documentation using Markdown, Word, Power Point or Latex.",
 

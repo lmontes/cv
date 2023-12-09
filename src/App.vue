@@ -92,6 +92,7 @@ export default {
             "task_iti_radiatus",
             "task_iti_twitter",
             "task_iti_iot",
+            "task_iti_forecasting",
             "task_iti_prototypes",
             "task_iti_eda",
             "task_iti_mlops",
@@ -110,6 +111,7 @@ export default {
             "Elasticsearch",
             "FastAPI",
             "Markdown",
+            "Mkdocs",
             "Latex",
             "Azure",
             "GCP",
@@ -124,7 +126,8 @@ export default {
             "Bootstrap",
             "API REST",
             "AWS",
-            "Testing"
+            "Testing",
+            "AzureML"
           ],
         },
         {
