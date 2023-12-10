@@ -17,7 +17,11 @@
     page-break-before: auto;
   }
 
-  .print-button {
+  .print-hidden {
     display: none;
   }
+}
+
+a:hover {
+  text-decoration: underline;
 }

@@ -1,5 +1,5 @@
 <template>
-  <footer class="grid justify-items-center text-slate-400 p-5">
+  <footer class="grid bg-slate-300 justify-items-center text-slate-700 p-3">
     <p>
       {{year}} - Luis Miguel Montes Novella
     </p>

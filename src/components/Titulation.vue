@@ -1,8 +1,9 @@
 <template>
   <div>
-    <a :href="title.url" target="_blank" class="text-xl text-slate-800">
-       {{ $t(title.name) }}
-    </a>
+    <div class="text-xl text-slate-800">
+      <a v-if="title.url" :href="title.url" target="_blank"> {{ $t(title.name) }} </a>
+      <span v-else> {{ $t(title.name) }} </span>
+    </div>
     <div class="flex flex-row">
       <div class="grow">
         <div class="text-slate-600 pr-2">

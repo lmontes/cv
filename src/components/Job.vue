@@ -1,8 +1,10 @@
 <template>
   <div class="mb-4">
-    <a :href="data.url" target="_blank" class="text-xl text-slate-800">
-      {{ data.company }}
-    </a>
+
+    <div class="text-xl text-slate-800">
+      <a v-if="data.url" :href="data.url" target="_blank"> {{ $t(data.company) }} </a>
+      <span v-else> {{ $t(data.company) }} </span>
+    </div>
 
     <div class="flex flex-row mb-2">
       <div class="grow">

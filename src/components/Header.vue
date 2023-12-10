@@ -56,7 +56,7 @@
         </div>
       </div>
     </div>
-    <div class="flex flex-row place-items-end h-full print-button">
+    <div class="flex flex-row place-items-end h-full print-hidden">
       <button class="text-slate-500 mr-2 mb-2 p-0 px-1" @click="print">
         <i class="fa-solid fa-print"></i>
       </button>

@@ -48,26 +48,30 @@
           />
         </section>
       </div>
+      <Footer class="print-hidden"></Footer>
     </div>
   </div>
 </template>
 
 <script>
-import Job from "./components/Job.vue";
-import Titulation from "./components/Titulation.vue";
+
 import Achievement from "./components/Achievement.vue";
+import Footer from "./components/Footer.vue";
 import Header from "./components/Header.vue";
+import Job from "./components/Job.vue";
 import LanguageTable from "./components/LanguageTable.vue";
 import SkillTable from "./components/SkillTable.vue";
+import Titulation from "./components/Titulation.vue";
 
 export default {
   components: {
-    Job,
-    Titulation,
     Achievement,
+    Footer,
     Header,
+    Job,
     LanguageTable,
     SkillTable,
+    Titulation,
   },
   data() {
     return {
@@ -170,7 +174,7 @@ export default {
         },
         {
           name: "title_computer_science",
-          url: "#",
+          url: null,
           startDate: "2009-09",
           endDate: "2014-09",
           institution: "Universidad Politécnica de Valencia",
@@ -210,18 +214,22 @@ export default {
       achievements: [
         {
           name: "achievement_exp_ii",
+          url: null,
           date: "2015-10",
         },
         {
           name: "achievement_swerc",
+          url: "https://www.inf.upv.es/www/etsinf/es/balance-de-swerc-2013-y-audiovisuales",
           date: "2013-11",
         },
         {
           name: "achievement_exp_ii3",
+          url: null,
           date: "2012-12",
         },
         {
           name: "achievement_exp_ii2",
+          url: null,
           date: "2012-02",
         },
       ],

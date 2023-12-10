@@ -2,7 +2,8 @@
   <div class="flex flex-row">
     <div class="grow">
       <div class="text-lg text-slate-800 mb-2 pr-2">
-        {{ $t(data.name) }}
+        <a v-if="data.url" :href="data.url" target="_blank"> {{ $t(data.name) }} </a>
+        <span v-else> {{ $t(data.name) }}</span>
       </div>
     </div>
     <div class="flex-none">
