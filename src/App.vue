@@ -157,7 +157,7 @@ export default {
             "PostgreSQL",
             "Asterisk",
             "Linux",
-            "Subversion",
+            "SVN",
             "SQL",
             "Bash",
             "API REST",
