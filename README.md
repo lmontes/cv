@@ -27,6 +27,7 @@ npm run deploy
 
 * [Vue.js](https://vuejs.org)
 * [Tailwind.css](https://tailwindcss.com)
+* [Tailwind Elements](https://tw-elements.com)
 * [Font Awesome icons](https://fontawesome.com)
 * [gh-pages](https://www.npmjs.com/package/gh-pages)
 

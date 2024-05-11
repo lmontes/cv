@@ -129,9 +129,9 @@ export default {
             "Vue.js",
             "Bootstrap",
             "API REST",
-            "AWS",
             "Testing",
-            "AzureML"
+            "AzureML",
+            "Labelstudio"
           ],
         },
         {

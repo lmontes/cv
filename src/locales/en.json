@@ -1,4 +1,7 @@
 {
+    "help_language": "Select language",
+    "help_print": "Print CV",
+
     "experience_title": "Experience",
     "studies_title": "Education",
     "skills_title": "Skills",
