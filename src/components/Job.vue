@@ -21,10 +21,10 @@
 
     <div class="pl-4">
       <ul
-        class="list-disc list-inside text-justify text-slate-700 mb-2"
+        class="list-disc list-outside text-justify text-slate-700 mb-2"
       >
         <li v-for="t in data.tasks" v-bind:key="t">
-          {{ $t(t) }}
+          <span v-html="$t(t)"></span>
         </li>
       </ul>
       <div class="flex flex-wrap gap-1">
@@ -44,7 +44,7 @@
 import {dateTranslate} from '../utils';
 
 export default {
-  name: "ProjectCard",
+  name: "Job",
   props: {
     data: Object,
   },

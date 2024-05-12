@@ -3,7 +3,7 @@
     <div class="cv flex flex-col bg-white font-sans border-x">
       <Header :data="data" :print="print"/>
 
-      <div id="content" class="px-16">
+      <div id="content" class="px-14">
         <section id="jobs" class="mb-6">
           <h2 class="text-2xl font-bold text-slate-900 mb-3">
             {{ $t("experience_title") }}
@@ -32,9 +32,10 @@
 
         <section id="skills" class="mb-6">
           <h2 class="text-2xl font-bold text-slate-900 mb-3">
-            {{ $t("technologies_title") }}
+            {{ $t("skills_title") }}
           </h2>
-          <SkillTable :skills="skills" />
+          <!--SkillTable :skills="skills" /-->
+          <SkillCards :skills="skills" />
         </section>
 
         <section id="achievements" class="mb-6">
@@ -60,7 +61,8 @@ import Footer from "./components/Footer.vue";
 import Header from "./components/Header.vue";
 import Job from "./components/Job.vue";
 import LanguageTable from "./components/LanguageTable.vue";
-import SkillTable from "./components/SkillTable.vue";
+// import SkillTable from "./components/SkillTable.vue";
+import SkillCards from "./components/SkillCards.vue";
 import Titulation from "./components/Titulation.vue";
 
 export default {
@@ -70,7 +72,8 @@ export default {
     Header,
     Job,
     LanguageTable,
-    SkillTable,
+    SkillCards,
+    // SkillTable,
     Titulation,
   },
   data() {
@@ -112,7 +115,7 @@ export default {
             "Python",
             "TypeScript",
             "Node.js",
-            "Elasticsearch",
+            "Elastic",
             "FastAPI",
             "Markdown",
             "Mkdocs",
@@ -131,7 +134,6 @@ export default {
             "API REST",
             "Testing",
             "AzureML",
-            "Labelstudio"
           ],
         },
         {
@@ -141,12 +143,10 @@ export default {
           endDate: "2017-02",
           url: "https://www.dialapplet.com",
           tasks: [
-            "task_dialapplet_pfc",
             "task_dialapplet_development",
-            "task_dialapplet_proxy",
+            "task_dialapplet_pfc",
             "task_dialapplet_reports",
-            "task_dialapplet_scripts",
-            "task_dialapplet_support"
+            "task_dialapplet_support",
           ],
           tags: [
             "C++",
@@ -157,10 +157,9 @@ export default {
             "PostgreSQL",
             "Asterisk",
             "Linux",
-            "SVN",
+            "Subversion",
             "SQL",
             "Bash",
-            "API REST",
           ],
         },
       ],
@@ -198,18 +197,21 @@ export default {
       ],
       nativeLanguage: "lang_es",
       skills: [
-        { name: "Spark", level: 60 },
-        { name: "Docker", level: 90 },
-        { name: "Elasticsearch", level: 60 },
-        { name: "Git", level: 70 },
-        { name: "Kubernetes", level: 50 },
-        { name: "Linux", level: 70 },
-        { name: "Machine Learning", level: 50 },
-        { name: "Neo4j", level: 70 },
-        { name: "PostgreSQL", level: 60 },
-        { name: "Python", level: 70 },
-        { name: "SQL", level: 90 },
-        { name: "API REST", level: 80 },
+        "skill_problem_solving",
+        "skill_teamwork",
+        "skill_software_development",
+        "skill_documentation",
+        "Python",
+        "Docker",
+        "Linux",
+        "Git",
+        "SQL",
+        "PostgreSQL",
+        "Neo4j",
+        "skill_apis",
+        "Machine Learning",
+        "Spark",
+        "Elasticsearch",
       ],
       achievements: [
         {
