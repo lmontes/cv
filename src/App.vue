@@ -11,7 +11,7 @@
           <Job v-for="j in jobs" v-bind:key="j.name" :data="j" />
         </section>
 
-        <p class="page-break mb-24">&nbsp;</p>
+        <div class="page-break"></div>
 
         <section id="titulations" class="mb-6">
           <h2 class="text-2xl font-bold text-slate-900 mb-3">
@@ -81,7 +81,7 @@ export default {
       dev: import.meta.env.DEV,
       data: {
         name: "Luis Miguel Montes Novella",
-        image: "images/lmontes.jpg",
+        image: "images/lmontes.png",
         email: import.meta.env.VITE_EMAIL,
         phone: import.meta.env.VITE_PHONE,
         linkedin: "https://linkedin.com/in/luismiguelmontesnovella",
